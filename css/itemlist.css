@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../Assets/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#nav-logo{
+    height: 100px;
+    width: 100px;
+    margin-top : 10px;
+}
+
+.container{
+    max-width: 90%;
+}
+
+#container-id a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.input-group-prepend {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#nav-position{
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-input::placeholder{
+    color:white;
+}
+
+#nav-search-button{
+    height: 25px;
+    width: 25px;
+}
+
+h1 {
+    color: black;
+}
+
+.produk {
+    background-color: #FF7872;
+    color: white;
+    padding: 5px 20px;
+    border-top: #FF7872 1px solid;
+    border-bottom: #FF7872 1px solid;
+    border-left: #FF7872 1px solid;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+input#hasilSearching {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-top: #B6B6B6 1px solid;
+    border-right: #B6B6B6 1px solid;
+    border-bottom: #B6B6B6 1px solid;
+    border-left: none;
+    width: 350%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    outline: none;
+}
+
+.urutkan {
+    padding: 5px 20px;
+    border: 3px white solid;
+}
+
+.btn-urutkan {
+    background-color: #fff;
+    color: black;
+    border: #F3E8E8 3px solid;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-urutkan:hover {
+    background-color: #FF7872;
+    border-color: #FF7872;
+}
+
+.btn-urutkan:focus {
+    background-color: #FF7872;
+    border-color: #FF7872;
+}
+
+a.dropdown-item.active.urutkan-isi {
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border-left: 3px orange solid;
+}
+
+a.dropdown-item.urutkan-isi-lain {
+    border-left: 3px white solid;
+}
+
+.card {
+    border: 1px solid #D4CFCE;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nama-barang, .harga, .daerah {
+    margin: 0;
+}
+
+.harga {
+    font-weight: bold;
+}
+
+.daerah {
+    opacity: 0.5;
+}
+
+.beli-sekarang, .tambah-keranjang {
+    border-radius: 7px;
+}
+
+.beli-sekarang {
+    background-color: #FF7872;
+    border: none;
+}
+
+.beli-sekarang:hover {
+    background-color: #c05752;
+}
+
+.beli-sekarang:focus {
+    background-color: #FF7872;
+    box-shadow: none;
+}
+
+.tambah-keranjang {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    background-color: white;
+    border: 1px black solid;
+    color: black;
+}
+
+.tambah-keranjang:focus {
+    box-shadow: none;
+    background-color: white;
+    color: black;
+    border-color: black;
+}
